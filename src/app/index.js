@@ -6,21 +6,16 @@ import {Home} from './components/Home';
 
 class App extends React.Component {
     render() {
-        // let user = {
-        //     name: "John",
-        //     hobbies: ['Sports', 'Reading'],
-        //     age: 36
-        // };
         return (
             <div className="container">
                 <div className="row">
                     <div className="col-xs-10 col-xs-offset-1">
-                        <Header/>
+                        <Header homeLink="Home"/>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-xs-10 col-xs-offset-1">
-                        <Home name={"Marko"} initialAge={32} />
+                        <Home name="Marko" initialAge={32}/>
                     </div>
                 </div>
             </div>
