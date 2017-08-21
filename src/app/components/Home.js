@@ -88,5 +88,6 @@ Home.propTypes = {
     name: PropTypes.string,
     initialAge: PropTypes.number,
     greet: PropTypes.func,
+    changeLink: PropTypes.func,
     initialLinkName: PropTypes.string
 }
