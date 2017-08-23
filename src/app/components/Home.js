@@ -77,7 +77,9 @@ export class Home extends React.Component {
                 <hr/>
                 <button onClick={this.props.greet} className="btn btn-primary">Greet</button>
                 <hr/>
-                <input type="text" value={this.state.homeLink} onChange={(event) => this.onHandleChange(event)}/>
+                <input type="text" className="form-control" value={this.state.homeLink}
+                       onChange={(event) => this.onHandleChange(event)}/>
+                <br/>
                 <button onClick={() => this.onChangeLink()} className="btn btn-primary">Change Header Link</button>
             </div>
         );
